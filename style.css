@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    font-family: Roboto ,serif;
+    color: white;
+}
+
+header,
+.brand-logo,
+.nav-bar,
+.nav-bar ul,
+.call-us,
+.cta{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    padding: 2.5em;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 3em;
+}
+
+ul{
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+.call-us{
+    justify-content: center;
+    align-items: center;
+}
+
+.call-img{
+    height: 50px;
+}
+
+.left{
+    width: 100%;
+}
+
+.cta{
+    padding: 2.5em;
+}
+
+/* .left{
+    border: 1px solid white;
+}
+
+.right{
+    border: 1px solid white;
+} */
+
+
+.cta{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.popup-1,
+.popup-2{
+    /* position: absolute; */
+
+    padding: 1.5em;
+
+    background-color: rgba(255, 255, 255, 0.25);
+
+    width: 300px;
+
+    position: relative;
+
+}
+
+.popup-icon{
+    /* position: relative; */
+}
+
+
+.popup-img{
+   background-color: #fff;
+   border-radius: 30px;
+   height: 50px;
+   padding: 5px 15px;
+}
+
+.popup-1{
+    right: 2em;
+    top: 0em;
+}
+
+.popup-2{
+    right: 20em;
+    top: 8em;
+}
+
+
+.hori-line{
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+
+.hori-line img{
+    height: 100px;
+}
+
+.vert-line img{
+    width: 100px;
+}
+
+
+
+.vert-line{
+    position: absolute;
+    top: 55px;
+    left: 300px;
+}
+
+.cta-heading{
+    font-size: 4em;
+}
+
+.cta-btn{
+    background-color: transparent;
+    color: white;
+    font-family: Roboto;
+    font-size: 2em;
+    padding: 15px 50px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 50px;
+}
