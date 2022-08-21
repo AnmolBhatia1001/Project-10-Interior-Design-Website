@@ -47,6 +47,12 @@
         margin-top: 30px;
     }
 
+    body{
+        background-size: cover;
+        background-position: left;
+
+    }
+
 }
 
 @media screen and (max-width: 512px) {
