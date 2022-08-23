@@ -48,7 +48,7 @@
 
 
 ## Time Taken
-It took me about 03 Hours to complete this project
+It took me about 02 Hours to complete this project
 
 <br/> 
 
